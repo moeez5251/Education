@@ -36,13 +36,13 @@ html{
     justify-content: center;
     position: sticky;
     top: 0;
-    cursor: pointer;
 }
 .nav-list{
 width: 70%;
 display: flex;
 align-items: center;
 justify-content: center;
+cursor: pointer;
 }
 .nav-list li{
 list-style: none;
@@ -250,6 +250,7 @@ width: 30%;
     }
     .v-hidden-resp{
         opacity: 0%;
+        cursor: none;
     }
     .box-main{
         max-width: 100%;
